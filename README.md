@@ -1,0 +1,2 @@
+# gitlost
+ Smart .gitignore Generator
