@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "GitLost",
     images: [
       {
-        url: "https://bytexgrid.github.io/gitlost/gitlost-app/public/og-image.png",
+        url: "https://bytexgrid.github.io/gitlost/og-image.png",
         width: 1200,
         height: 630,
         alt: "GitLost - Smart .gitignore Generator",
