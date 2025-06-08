@@ -19,7 +19,7 @@ function AboutModal({ open, onClose }: { open: boolean; onClose: () => void }) {
         >
           &times;
         </button>
-        <img src="/logo.ico" alt="GitLost Logo" className="h-20 w-20 mb-4" />
+        <img src="/gitlost/logo.ico" alt="GitLost Logo" className="h-20 w-20 mb-4" />
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-1">GitLost</h2>
         <div className="text-lg text-gray-500 dark:text-gray-300 mb-4">Smart .gitignore Generator</div>
         <div className="text-gray-700 dark:text-gray-300 mb-4 text-center">
@@ -73,7 +73,7 @@ export default function Header() {
 
   return (
     <header className="w-full flex items-center gap-3 px-6 py-4 border-b border-gray-200 dark:border-gray-800 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm">
-      <img src="/logo.ico" alt="GitLost Logo" height={36} width={36} className="h-9 w-9 mr-3" style={{ background: 'none', borderRadius: 0, boxShadow: 'none' }} />
+      <img src="/gitlost/logo.ico" alt="GitLost Logo" height={36} width={36} className="h-9 w-9 mr-3" style={{ background: 'none', borderRadius: 0, boxShadow: 'none' }} />
       <h1 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white flex items-center gap-3">
             GitLost
         <span className="text-base font-normal text-gray-500 dark:text-gray-300 ml-2" style={{fontWeight: 400}}>
@@ -135,7 +135,7 @@ export default function Header() {
             <span className="absolute left-2 top-2 w-3 h-3 rounded-full bg-yellow-400" style={{ opacity: dark ? 1 : 0, transition: 'opacity 0.3s' }} />
             <span className="absolute right-2 top-2 w-3 h-3 rounded-full bg-gray-800" style={{ opacity: dark ? 0 : 1, transition: 'opacity 0.3s' }} />
           </button>
-      </div>
+        </div>
       <AboutModal open={aboutOpen} onClose={() => setAboutOpen(false)} />
     </header>
   );
