@@ -28,6 +28,14 @@ GitLost can automatically detect and select appropriate templates by analyzing y
 - Modern, responsive design
 - Dark mode support
 
+## Used by
+
+[![Used by](https://img.shields.io/badge/dynamic/json?color=blue&label=Used%20by&query=count&url=https%3A%2F%2Fraw.githubusercontent.com%2Fbytexgrid%2Fgitlost%2Fmain%2Fused-by.json)](https://github.com/bytexgrid/gitlost)
+
+<a href="https://github.com/bytexgrid/gitlost/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=bytexgrid/gitlost" />
+</a>
+
 ## Getting Started
 
 Visit [GitLost](https://bytexgrid.github.io/gitlost) to start generating your .gitignore files.
@@ -128,4 +136,4 @@ This project is licensed under the GNUv3 License - see the [LICENSE](LICENSE) fi
 
 - Inspired by the need for a more user-friendly .gitignore generator
 - Built with modern web technologies for optimal performance
-- Thanks to all contributors ( currently just me - BytexGrid ) who have helped shape this project
+- Thanks to all contributors ( currently just - BytexGrid :) who have helped shape this project
